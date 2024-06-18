@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <link rel="stylesheet" href="css/index.css"> 
+        <script src="js/index.js"></script>
+        <title>Recuperar Senha</title>
+    </head>
+        <div class="header">
+            <img src="img/logo.png"/>
+            <div class="titulo">
+                <p>The Independent Den</p>
+            </div>
+            <div class="menu">
+                
+                <a href="login.html"><button class="btnMenu">Login</button></a>
+                <a href="cadastro.html"><button class="btnMenu">Cadastro</button></a>
+                
+            </div>
+        </div>
+    <body>
+    <div class="background">
+        <div class ="form-geral">
+            <div>
+                <form id="formRecuperar">
+                    <h1>Recuperação de Senha</h1>
+                    <div class="campo-texto">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="loginemail" placeholder="E-Mail">   
+                        <label id="email_invalido" class="invalid"></label>
+                    </div>
+                    <button type="button" onclick="email_rec_senha()">Recuperar Senha</button>
+                </form>
+            </div>
+    </div>
+</body>
+</html>
+

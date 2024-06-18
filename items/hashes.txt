@@ -1,0 +1,14 @@
+usuario;hash_senha
+joaosilva;$2y$12$qzL/qCSUkO7ghoLYuU.76u/jj4zWpLxrGggemAPbXQEGd3kMky0YK
+mariagomes;$2y$12$7ZUrym9ZdG5t4qWt6H9jSuR0mVskOzOTjsvH7NqlLPlmQ9nB3TKu.
+pedrogoncalves;$2y$12$apGjx8xuqCJ/2un6FVU4DOx1WksEXHSlUGAunp6r8Xsb1M1coT2Ue
+anapereira;$2y$12$B3UUSXQrs/m5D1e.tB/JkOh4d2oHHPfgfyy/9b/hogUWuGlX/vdUC
+carlosrodrigues;$2y$12$Nr8IN2pnkW7i4Hbp2h3OwezTAN5oCpv1wxwq4zOSkWzg.k3X0Z7vy
+andreasantos;$2y$12$A2f5o42ZjUumF8AZ5c7oj.0pXFSiPxH5vVCGzyDO.7jbgCcgY0sBu
+julianalima;$2y$12$WeU1gkblQgZoT5g8pB.xW.LxcL1kKv3NZF4hskTlLOi1FPMHyc5K2
+fernandooliveira;$2y$12$gB6WkCwaADPd98xWOGJme.5/16bwNv8t9l9sF/pB87DBA.jkSSuLa
+lucianacosta;$2y$12$MwUAWqU.KIdBBHPc0NXbP..CXMy.9r9EsDh2NKbZkb/GBrTxr2C5S
+marcelosilveira;$2y$12$RuvXW.KXGSSJn8Yy0yDw1ec2IT6r2jdwT7OlndSydzN/u7jCY9IMK
+patriciapires;$2y$12$beVfwjbJhUnG0vm5MY/sG.Xs0ueyCZ/YoAMC8ugP8NQ8jzZrK0.Si
+rodrigocarvalho;$2y$12$nU5SP9KR5TMMN4PmT/.ACeZzRHqgub4fhln68P33j.nftvJBEyhty
+camilasouza;$2y$12$jCP7rZUkM.y1GvzDHYYq2.rPw7.2aZZ//k/12gfeZ9OyQgqPNxCKm

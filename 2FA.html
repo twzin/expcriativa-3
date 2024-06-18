@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <link rel="stylesheet" href="css/index.css"> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+        <script src="js/2fa.js"></script>
+
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <div class="background">
+            <div class="header">
+                <img src="img/logo.png"/>
+                <div class="titulo">
+                    <p>The Independent Den</p>
+                </div>
+                <div class="menu">
+                    
+                    <a href="login.html"><button class="btnMenu">Login</button></a>
+                    <a href="cadastro.html"><button class="btnMenu">Cadastro</button></a>
+                    
+                </div>
+
+            </div>
+            <div class="form-geral">
+                <form id="form2FA" class="form-2FA">
+                    <h1>Código SMS</h1>
+                    <div class="codigo-2FA">
+                        <label for="codigo">Insira o código enviado via SMS</label>
+                        <input type="codigo" name="codigo" id="codigo" placeholder="Código">   
+                        <label id="codigo_invalido" class="invalid"></label>
+                    </div>
+                    <button type="button" onclick="enviar()">enviar</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

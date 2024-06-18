@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <link rel="stylesheet" href="css/index.css"> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/forge/1.3.1/forge.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jsencrypt/3.1.0/jsencrypt.min.js"></script>
+        <script src="js/cadastro.js"></script>
+
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <div class="background">
+            <div class="header">
+                <img src="img/logo.png"/>
+                <div class="titulo">
+                    <p>The Independent Den</p>
+                </div>
+                <div class="menu">
+                    
+                    <a href="login.html"><button class="btnMenu">Login</button></a>
+                    <a href="cadastro.html"><button class="btnMenu">Cadastro</button></a>
+                    
+                </div>
+
+            </div>
+            <div class="form-geral">
+                <form id="formCadastro" class="form-cadastro">
+                    <h1>CADASTRO</h1>
+                    <div class="user-cadastro">
+                        <label for="usuario">Usuario</label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Usuario" >
+                    </div>
+                    <div class="email-cadastro">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="E-Mail">   
+                        <label id="email_invalido" class="invalid"></label>
+                    </div>
+                    <div class="telefone">
+                        <label for="telefone">Telefone</label>
+                        <input type="text" name="telefone" id="telefone" placeholder="(DDD) Telefone">   
+                        <label id="telefone_invalido" class="invalid"></label>
+                    </div>
+                    <div class="senha-cadastro">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="Senha">   
+                    </div>  
+                    <div id="checklist">
+                        <ul>
+                            <li id="comprimento">Pelo menos 8 caracteres</li>
+                            <li id="maiuscula">Pelo menos uma letra maiúscula</li>
+                            <li id="minuscula">Pelo menos uma letra minúscula</li>
+                            <li id="numero">Pelo menos um número</li>
+                            <li id="caractere">Pelo menos um caractere especial (@$!%*?&)</li>
+                        </ul>
+                    </div>
+                    <script src="js/validar-senha.js"></script>
+                    <button type="button" onclick="cadastrar()">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
