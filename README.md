@@ -1,3 +1,2 @@
 # expcriativa-3
-Projeto de Expêriencia Criativa do 3 semestre.
-Bacharelado em Cibersegurança - PUCPR
+Expêriencia Criativa 3 semestre
